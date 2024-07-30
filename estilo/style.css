@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+header > nav {
+    margin: 10px;
+    padding: 10px;
+    border: 1px dashed red;
+}
+
+header > nav > a {
+    border: 1px dashed green;
+    padding: 10px;
+    margin: 0px 5px;
+}
+
+main {
+
+}
+
+main > div.inicio {
+    height: 700px;
+    background: black url(../imagens/fundo2.jpeg) center center scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > div.inicio > p {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0px 15px;
+}
